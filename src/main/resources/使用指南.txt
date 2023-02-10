@@ -1,0 +1,13 @@
+MMToNI使用方法:
+1. 安装NeigeItems、MythicMobs、MMToNI，等待服务器完全启动
+2. 打开plugins/MMToNI文件夹，你可以看到一个名为"io"的文件夹
+3. 关闭服务器
+4. 使用压缩软件打开你的MythicMobs.jar插件，将plugins/MMToNI/io中的文件替换到插件内对应的路径中
+5. 删除MMToNI，启动服务器
+
+注意：
+对于大部分情况，你需要在MM中注册对应ID的物品才能兼容成功。
+例：
+存在名为test的NI物品，你尝试通过/mm i get test获取该物品，但提示找不到该物品
+解决：
+在MM中配置ID为test的物品，重载后，/mm i get test将获取ID为test的NI物品
